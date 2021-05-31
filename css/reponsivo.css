@@ -19,28 +19,28 @@
     width: 26px;
     height: 26px;
   }
-}
 
-/* Produtos */
-.produto_item h2 {
-  top: -150px;
-  margin-bottom: -56px;
-}
+  /* Produtos */
+  .produto_item h2 {
+    top: -150px;
+    margin-bottom: -56px;
+  }
 
-.produto_icone {
-  padding: 41px 0;
-}
+  .produto_icone {
+    padding: 41px 0;
+  }
 
-.produto_info p {
-  font-size: 14px;
-  line-height: 20px;
-  padding: 20px 30px;
-  height: 122px;
-}
+  .produto_info p {
+    font-size: 14px;
+    line-height: 20px;
+    padding: 20px 30px;
+    height: 122px;
+  }
 
-.produto_info ul li {
-  width: 181px;
-  height: 49px;
+  .produto_info ul li {
+    width: 181px;
+    height: 49px;
+  }
 }
 
 /* Final do estilo para Tablets */
