@@ -11,6 +11,7 @@ p {
 
 img {
   display: block;
+  max-width: 100%;
 }
 
 .btn {
@@ -193,6 +194,10 @@ img {
   text-align: center;
 }
 
+.produtos_lista li img {
+  margin: 0 auto;
+}
+
 .produtos_icone {
   background: #000;
   padding: 20px;
@@ -275,6 +280,7 @@ img {
   right: 162px;
   z-index: -1;
 }
+
 .qualidade img {
   margin: 0 auto;
 }
