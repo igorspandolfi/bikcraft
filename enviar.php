@@ -49,7 +49,7 @@ try {
   $mail->Username = $email_envio;
   $mail->Password = $email_pass;
   $mail->Port = $host_port; 
-  $mail->SMTPSecure = "SMTPSecure"; //Se não tiver SSL use assim, com SSL coloque no SMTPSecure
+  $mail->SMTPSecure = "tls"; //Se não tiver SSL use assim, com SSL coloque no SMTPSecure
   
   $mail->setFrom($email_envio, "Formulário - ". $nome);
   $mail->addAddress($email_envio, $site_name);
