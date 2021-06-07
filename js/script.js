@@ -15,3 +15,12 @@ if(window.SimpleSlide){
 if (window.SimpleAnime){
   new SimpleAnime();
 }
+
+if (window.SimpleForm){
+  new SimpleForm({
+    form: ".formphp",
+    button: "#enviar",
+    erro: "<div id='form-erro'><h2>Um erro ocorreu!</h2><p>Um erro ocorreu, tente para o email contato@bikcraft.com.</p></div>",
+    sucesso: "<div id='form-sucesso'><h2>Fomulário enviado com sucesso</h2><p>Em breve eu entro em contato</p></div>"
+  })
+}
