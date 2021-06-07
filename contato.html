@@ -12,7 +12,16 @@
   <link rel="stylesheet" href="css/contato.css">
   <link rel="stylesheet" href="css/reponsivo.css">
   <script>document.documentElement.classList.add("js");</script>
-  <title>Bikcraft - Contato</title>
+  <title>Bikcraft - Tire suas dúvidas com a gente.</title>
+  <meta name="description" content="Compre a sua bicicleta personalizada na Bikcraft. Possuímos modelos Passeio, Esporte e Retrô." />
+
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Bikcraft - Tire suas dúvidas com a gente." />
+  <meta property="og:description" content="Compre a sua bicicleta personalizada na Bikcraft. Possuímos modelos Passeio, Esporte e Retrô." />
+  <meta property="og:url" content="http://igorspandolfi.github.io/bikcraft/contato.html" />
+  <meta property="og:image" content="http://igorspandolfi.github.io/bikcraft/img/og-image.png" />
+
+  <link rel="shortcut icon" href="favicon.ico">
 </head>
 
 <body>
@@ -41,18 +50,18 @@
 
   <section class="contato" data-anime="1200">
     <div class="container">
-      <form action="" id="form_orcamento" class="contato_form grid-8">
+      <form action="./enviar.php" id="form_orcamento" class="contato_form grid-8">
         <label for="nome">Nome</label>
-        <input type="text" name="nome" id="nome">
+        <input type="text" name="nome" id="nome" required>
 
         <label for="email">E-mail</label>
-        <input type="text" name="email" id="email">
+        <input type="text" name="email" id="email" required>
 
         <label for="telefone">Telefone</label>
         <input type="text" name="telefone" id="telefone">
 
-        <label for="espec">Especificações</label>
-        <textarea name="espc" id="espec" cols="30" rows="10"></textarea>
+        <label for="mensagem">Mensagem</label>
+        <textarea name="mensagem" id="mensagem" cols="30" rows="10" required></textarea>
 
         <button type="submit" class="btn btn-preto">Enviar</button>
 
@@ -73,16 +82,16 @@
     </div>
   </section>
 
-  <section class="container contato_mapa" data-anime="1200">
+  <div class="container contato_mapa" data-anime="1200">
     <a href="http://google.com" target="_blank" class="grid-16"><img src="img/endereco-bikcraft.jpg" alt="Endereço da Bikcraft"></a>
-  </section>
+  </div>
 
-  <section class="quebra">
+  <div class="quebra">
     <blockquote class="quote-externo container">
       <p>"o verdadeiro segredo da felicidade está em ter um genuínointeresse por todos os detalhes da vida cotidiana"</p>
       <cite>WILLIAM MORRIS</cite>
     </blockquote>
-  </section>
+  </div>
 
   <footer>
     <div class="footer">
